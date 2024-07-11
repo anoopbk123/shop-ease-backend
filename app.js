@@ -38,7 +38,7 @@ app.get('*', (req, res) =>{
     res.json('404')
 })
 
-app.listen(PORT, HOSTNAME,() => {
+app.listen(PORT, () => {
     console.log('server running at ', `http://${HOSTNAME}:${PORT}`)
 })
 
